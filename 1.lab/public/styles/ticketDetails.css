@@ -1,15 +1,18 @@
 body {
-    background-color: #f8fafc;
+    background: linear-gradient(to right, #bfdbfe, #60a5fa);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 .container {
     border: 1px solid #e5e7eb;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-top: 9em;
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
     padding: 1em;
+    margin: 1em;
 }
 
 h1 {
@@ -77,6 +80,7 @@ p {
     margin-top: 1em;
     margin-bottom: 2em;
 }
+
 
 @media (max-width: 640px) {
     body {
