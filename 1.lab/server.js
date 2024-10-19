@@ -64,10 +64,17 @@ app.get('/', async (req, res) => {
       ticketCount: ticketCount
     });
   } catch (error) {
-    console.error('Error fetching ticket count:', error);
-    res.status(500).send('Internal Server Error');
+    console.error('Zero tickets:', error);
+    
+    const ticketCount = 0;
+
+    res.render('index', {
+      title: 'Ticket System',
+      ticketCount: ticketCount
+    });
   }
 });
+
 
 app.use('/', router);
 
