@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="/styles/ticketDetails.css" rel="stylesheet">
+</head>
+
+<body class="bg-gradient-to-r from-blue-200 to-blue-400 font-sans flex flex-col justify-between h-screen">
+    <div class="container mx-auto p-6 bg-white rounded-lg shadow-lg">
+        <h1 class="text-3xl font-bold text-center text-blue-600">Ticket Details</h1>
+        <div class="mt-6">
+            <p>Welcome, <strong><%= userEmail %></strong>!</p>
+            <h3 class="text-xl font-semibold text-gray-800">Ticket ID: <span class="text-blue-500">
+                    <%= ticket.id %>
+                </span></h3>
+            <div class="mt-4 space-y-2">
+                <p class="text-gray-700"><strong>OIB:</strong>
+                    <%= ticket.vatin %>
+                </p>
+                <p class="text-gray-700"><strong>First Name:</strong>
+                    <%= ticket.first_name %>
+                </p>
+                <p class="text-gray-700"><strong>Last Name:</strong>
+                    <%= ticket.last_name %>
+                </p>
+                <p class="text-gray-700"><strong>Created At:</strong>
+                    <%= ticket.created_at %>
+                </p>
+            </div>
+        </div>
+        <h3 class="text-xl font-semibold mt-6 text-gray-800">Your QR Code:</h3>
+        <div class="flex justify-center mt-2">
+            <img src="<%= qrCodeImage %>" alt="Generated QR Code" class="qrCode" />
+        </div>
+        <a href="/" class="btn mt-2 transition-transform hover:scale-105">Back to Home</a>
+    </div>
+</body>
+
+</html>
