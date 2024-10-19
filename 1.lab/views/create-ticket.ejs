@@ -29,18 +29,15 @@
                     class="focus:ring-2 focus:ring-blue-300">
             </div>
             <button type="submit" class="btn w-full bg-blue-500 text-white hover:bg-blue-600">Submit Ticket</button>
+            <div id="qrCodeContainer" class="hidden">
+                <h3 class="font-semibold">Your QR Code:</h3>
+                <img id="qrCode" alt="Generated QR Code" />
+                <h3 class="font-semibold mt-4">Ticket URL:</h3>
+                <p id="ticketURL" class="text-blue-500 underline"></p>
+            </div>
         </form>
-
-        <div id="qrCodeContainer" class="hidden">
-            <h3 class="text-lg font-semibold">Your QR Code:</h3>
-            <img id="qrCode" alt="Generated QR Code" class="mt-2" />
-            <h3 class="text-lg font-semibold mt-4">Ticket URL:</h3>
-            <p id="ticketURL" class="text-blue-500 underline"></p>
-        </div>
-
         <a href="/" class="btn w-full mt-4 bg-gray-300 text-gray-800 hover:bg-gray-400">Back to Home</a>
     </div>
-
     <script>
         const form = document.getElementById('ticketForm');
         form.addEventListener('submit', async (event) => {
