@@ -9,12 +9,12 @@
     <link href="/styles/ticketDetails.css" rel="stylesheet">
 </head>
 
-<body class="bg-gradient-to-r from-blue-200 to-blue-400 font-sans flex flex-col justify-between h-screen">
+<body class="bg-gradient-to-r from-blue-200 to-blue-400 font-sans flex flex-col justify-center items-center h-screen">
     <div class="container mx-auto p-6 bg-white rounded-lg shadow-lg">
-        <h1 class="text-3xl font-bold text-center text-blue-600">Ticket Details</h1>
+        <h1 class="font-bold text-center text-blue-600">Ticket Details</h1>
         <div class="mt-6">
             <p>Welcome, <strong><%= userEmail %></strong>!</p>
-            <h3 class="text-xl font-semibold text-gray-800">Ticket ID: <span class="text-blue-500">
+            <h3 class="font-semibold text-gray-800">Ticket ID: <span class="text-blue-500">
                     <%= ticket.id %>
                 </span></h3>
             <div class="mt-4 space-y-2">
@@ -32,11 +32,11 @@
                 </p>
             </div>
         </div>
-        <h3 class="text-xl font-semibold mt-6 text-gray-800">Your QR Code:</h3>
-        <div class="flex justify-center mt-2">
+        <h3 class="font-semibold mt-4 text-gray-800">Your QR Code:</h3>
+        <div class="flex justify-center">
             <img src="<%= qrCodeImage %>" alt="Generated QR Code" class="qrCode" />
         </div>
-        <a href="/" class="btn mt-2 transition-transform hover:scale-105">Back to Home</a>
+        <a href="/" class="btn transition-transform hover:scale-105">Back to Home</a>
     </div>
 </body>
 
