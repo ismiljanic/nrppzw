@@ -1,6 +1,6 @@
 # Druga laboratorijska vježba
 
-U prvoj laboratorijskoj vježbi proučava se sigurnost web aplikacije.
+U drugoj laboratorijskoj vježbi proučava se sigurnost web aplikacije.
 Cilj je laboratorijske vježbe/projekta demonstrirati predznanje vezano za izradu web-aplikacije koja komunicira s bazom
 podataka, omogućiti isporuku aplikacije u oblak, a zatim u nju graditi mogućnosti koje će omogućiti potencijalnom
 napadaču korištenje dvije različite tehnike sigurnosnih napada, odnosno dvije vrste ranjivosti web aplikacija.
@@ -110,4 +110,4 @@ DISCLAIMER: Za lokalno testiranje potrebno je kreirati vlastitu bazu podataka i 
 <img src="./pictures/brokenAuth2.png" style="max-width: 100%; height: auto;">
 
 ## Deploy projekta
-Projekt je javno dostupan na web stranici: https://nrppzw2lab2frontend.onrender.com/
+Projekt je javno dostupan na web stranici: https://nrppzw2lab2frontend-837d.onrender.com/
