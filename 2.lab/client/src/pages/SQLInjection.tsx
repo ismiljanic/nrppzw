@@ -38,7 +38,7 @@ export function SQLInjection() {
 
         //Slanje POST zahtjeva s podacima na server
         try {
-            const response = await fetch("https://nrppzwlab2backend.onrender.com/login", {
+            const response = await fetch("https://nrppzw-xlwz.onrender.com/login", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -77,7 +77,7 @@ export function SQLInjection() {
         event.preventDefault();
         //Slanje GET zahtjeva s pojmom za pretrazivanje na server
         try {
-            const response = await fetch(`https://nrppzwlab2backend.onrender.com/search?term=${encodeURIComponent(searchTerm)}&sqlInjectionCheckbox=${sqlInjectionCheckbox}`);
+            const response = await fetch(`https://nrppzw-xlwz.onrender.com/search?term=${encodeURIComponent(searchTerm)}&sqlInjectionCheckbox=${sqlInjectionCheckbox}`);
             const data = await response.json();
             //uspjeh
             if (response.ok) {
@@ -104,7 +104,7 @@ export function SQLInjection() {
         event.preventDefault();
         //Slanje POST zahtjeva za promjenu lozinke na server
         try {
-            const response = await fetch("https://nrppzwlab2backend.onrender.com/changePassword", {
+            const response = await fetch("https://nrppzw-xlwz.onrender.com/changePassword", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

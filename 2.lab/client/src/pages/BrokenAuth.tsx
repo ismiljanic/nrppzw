@@ -29,7 +29,7 @@ export function BrokenAuth() {
         }
         //POST zahtjev na server
         try {
-            const response = await fetch("https://nrppzwlab2backend.onrender.com/loginBrokenAuth", {
+            const response = await fetch("https://nrppzw-xlwz.onrender.com/loginBrokenAuth", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
