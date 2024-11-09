@@ -90,24 +90,24 @@ DISCLAIMER: Za lokalno testiranje potrebno je kreirati vlastitu bazu podataka i 
 
 ### Pocetna stranica
 
-<img src="2.lab/pictures/pocetna.png" style="max-width: 100%; height: auto;">
+<img src="./pictures/pocetna.png" style="max-width: 100%; height: auto;">
 
 ### SQL injection - tautologija
 
-<img src="2.lab/pictures/sql1.png" style="max-width: 100%; height: auto;">
+<img src="./pictures/sql1.png" style="max-width: 100%; height: auto;">
 
 ### SQL injection - tautologija
 
-<img src="2.lab/pictures/sql2.png" style="max-width: 100%; height: auto;">
+<img src="./pictures/sql2.png" style="max-width: 100%; height: auto;">
 
 ### SQL injection - ilegalni upiti
 
-<img src="2.lab/pictures/sql3.png" style="max-width: 100%; height: auto;">
+<img src="./pictures/sql3.png" style="max-width: 100%; height: auto;">
 
 ### Broken Authentication
 
-<img src="2.lab/pictures/brokenAuth1.png" style="max-width: 100%; height: auto;">
-<img src="2.lab/pictures/brokenAuth2.png" style="max-width: 100%; height: auto;">
+<img src="./pictures/brokenAuth1.png" style="max-width: 100%; height: auto;">
+<img src="./pictures/brokenAuth2.png" style="max-width: 100%; height: auto;">
 
 ## Deploy projekta
 Projekt je javno dostupan na web stranici: https://nrppzw2lab2frontend.onrender.com/
