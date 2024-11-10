@@ -101,7 +101,7 @@ export function BrokenAuth() {
                         <li><strong>Lozinka:</strong> brokenAuthSecure</li>
                     </ul>
                     <p>
-                        Nakon uspješne prijave, sigurnost sustava može se provjeriti tako da se pokuša izvršiti isti SQL injection napad kada je opcija "Enable Broken Authentication" isključena:
+                        Nakon uspješne prijave, sigurnost sustava može se provjeriti tako da se pokuša izvršiti isti SQL injection napad kada je opcija "Dozvoli lošu autentifikaciju" isključena:
                     </p>
                     <ul>
                         <li><strong>Email:</strong> ivan@example.com' OR '1'='1</li>
