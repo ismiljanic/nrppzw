@@ -297,7 +297,7 @@ function draw() {
 
     //provjera je li lopta dodirnula lijevi ili desni rub canvasa (zid)
     //x + dx > canvas.width - ball - provjera je li lopta na desnom rubu
-    //x + dx < ball - provjera je li lopta otisla dodirnula lijevi rub, tj. udaljenost lopte od lijevog ruba je manja od radijusa lopte
+    //x + dx < ball - provjera je li lopta dodirnula lijevi rub, tj. udaljenost lopte od lijevog ruba je manja od radijusa lopte
     if (x + dx > canvas.width - ball || x + dx < ball) {
         dx = -dx; //ako je lopta dodirnula lijevi ili desni rub, odbija se u suprotnom smjeru i pusta se odgovarajuci zvuk za odbijanje o zid
         sounds.ballWall.play();
