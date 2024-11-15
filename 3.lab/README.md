@@ -4,7 +4,6 @@ U trećoj laboratorijskoj vježbi proučava se izrada HTML5 web stranica.
 Cilj je laboratorijske vježbe/projekta izraditit arkadnu 2D računalnu igru kao HTML5 web stranicu. 
 Igra predstavlja znatno pojednostavljenu verziju arkadne igre Breakout te je izrađena pomoću HTML5 Canvas API-ja.
 
----
 ## Funkcionalni zahtjevi
 
 - igra se prikazuje u Canvas objektu preko cijelog prozora web preglednika
@@ -28,14 +27,11 @@ Igra predstavlja znatno pojednostavljenu verziju arkadne igre Breakout te je izr
 - umjesto pravokutnika moguće je koristiti sliku cigle
 - generiranje zvuka za koliziju
 
----
-
 ## O implementaciji projekta
-
 Projekt je implementiran korištenjem jedne HTML5 datoteke, jedne JavaScript datoteke i jedne CSS datoteke. 
 Pokreće se otvaranjem HTML5 datoteke u web pregledniku.
 Zvuk koji se koristi pri koliziji dobiven je [ovdje](https://sfxr.me/).
----
+
 # Tehnologije korištene za implementaciju
 
 <ul class="horizontal-list">
@@ -63,7 +59,6 @@ Zvuk koji se koristi pri koliziji dobiven je [ovdje](https://sfxr.me/).
   </li>
 </ul>
 
----
 ## Upute za lokalno testiranje
 
 ### Pokretanje projekta
@@ -71,7 +66,6 @@ Zvuk koji se koristi pri koliziji dobiven je [ovdje](https://sfxr.me/).
 - upisati naredbu `ls` koja treba ispisati barem **index.html**, **script.js** i **style.css**
 - odabrati **index.html** i otvoriti igru u odgovarajućem pregledniku
 
----
 ## Pregled funkcionalnosti
 
 ### Pocetna stranica
@@ -90,6 +84,5 @@ Zvuk koji se koristi pri koliziji dobiven je [ovdje](https://sfxr.me/).
 
 <img src="./pictures/poraz.png" style="max-width: 100%; height: auto;">
 
----
 ## Deploy projekta
-Projekt je javno dostupan na web stranici: 
+Projekt je javno dostupan na web stranici: https://web2lab3-xf4p.onrender.com
