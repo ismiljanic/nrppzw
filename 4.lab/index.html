@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Četvrti labos - HTTP/2</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/gallery.css">
+    <link rel="stylesheet" href="styles/modal.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+    <header>
+        <h1>Napredni razvoj programske potpore za Web - 4.labos</h1>
+        <p>Ovdje možete vidjeti nekoliko slika učitanih s poslužitelja.</p>
+        <button id="darkModeToggle">Dark Mode</button>
+    </header>
+
+    <section class="gallery-container">
+        <div class="gallery" id="gallery">
+        </div>
+    </section>
+
+    <script>
+        const gallery = document.getElementById('gallery');
+        const totalImages = 50;
+    
+        for (let i = 1; i <= totalImages; i++) {
+            const imgElement = document.createElement('img');
+    
+            imgElement.src = `pictures/image${1}.png?t=${i}`;
+            imgElement.alt = `Slika ${i}`;
+            imgElement.classList.add('gallery-image', 'fade-in');
+            gallery.appendChild(imgElement);
+        }
+    </script>
+
+    <footer>
+        <p class="footer">&copy; 2024 Demonstracija HTTP/2.</p>
+    </footer>
+
+    <script src="scripts/script1.js"></script>
+    <script src="scripts/script2.js"></script>
+    <script src="scripts/script3.js"></script>
+</body>
+</html>
